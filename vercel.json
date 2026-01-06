@@ -2,7 +2,7 @@
   "version": 2,
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "devCommand": "npm run dev",
+  "devCommand": "npm run dev && node server.js",
   "installCommand": "npm install",
   "framework": null,
   "rewrites": [
